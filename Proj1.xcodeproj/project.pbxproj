@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		63FF788E1D80B4FF007F0C05 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 63FF788D1D80B4FF007F0C05 /* main.c */; };
+		63FF78971D80B69F007F0C05 /* logger.c in Sources */ = {isa = PBXBuildFile; fileRef = 63FF78951D80B69F007F0C05 /* logger.c */; };
+		63FF78991D80CD8F007F0C05 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 63FF78981D80CD8F007F0C05 /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		63FF788A1D80B4FF007F0C05 /* Proj1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Proj1; sourceTree = BUILT_PRODUCTS_DIR; };
 		63FF788D1D80B4FF007F0C05 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		63FF78941D80B686007F0C05 /* Proj1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Proj1.h; sourceTree = "<group>"; };
+		63FF78951D80B69F007F0C05 /* logger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = logger.c; sourceTree = "<group>"; };
+		63FF78961D80B69F007F0C05 /* logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logger.h; sourceTree = "<group>"; };
+		63FF78981D80CD8F007F0C05 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				63FF788D1D80B4FF007F0C05 /* main.c */,
+				63FF78941D80B686007F0C05 /* Proj1.h */,
+				63FF78951D80B69F007F0C05 /* logger.c */,
+				63FF78961D80B69F007F0C05 /* logger.h */,
+				63FF78981D80CD8F007F0C05 /* Makefile */,
 			);
 			path = Proj1;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63FF78991D80CD8F007F0C05 /* Makefile in Sources */,
 				63FF788E1D80B4FF007F0C05 /* main.c in Sources */,
+				63FF78971D80B69F007F0C05 /* logger.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +251,7 @@
 				63FF78931D80B4FF007F0C05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
