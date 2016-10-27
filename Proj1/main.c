@@ -84,7 +84,7 @@ int main(int argc, const char * argv[]) {
     //The functions for the logger are called here.
     printf("%s\n", getlog());
     
-    sprintf(buff, "This is a stupid message.");
+    sprintf(buff, "This is my first message.");
     
     logRandomMessages(buff);
     err = savelog(fileName);
@@ -93,10 +93,10 @@ int main(int argc, const char * argv[]) {
     
     printf("%s\n", getlog());
     clearlog();
-    sprintf(buff, "This is another stupid message");
+    sprintf(buff, "This is my second message.");
     logRandomMessages(buff);
 
-    sprintf(buff, "This is a slightly less stupid message.");
+    sprintf(buff, "This is my third message.");
     logRandomMessages(buff);
     err = savelog(fileName);
     if(err == -1)
